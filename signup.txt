@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIGNUP</title>
+</head>
+<body>
+<form>
+  <h1>Account Registration</h1>
+  <input type="text" name="f_name" placeholder="Enter Your First Name" required> <br>
+  <input type="text" name="l_name" required placeholder="Enter Your Last Name"> <br>
+  <input type="email" name="email" required placeholder="Enter Your Email Name"> <br>
+  Male: <input type="radio" required name="gender" value="Male"> Female: <input type="radio" name="gender"required  value="Female"> <br>
+
+<input type="date"required  name="dob"> <br>
+<input type="password"required  name="pwd" placeholder="Enter Password"><br>
+  <select name="course"required >
+    <option value="">Choose Course ...</option>
+    <option value="AI">Artificial Intelligence</option>
+    <option value="Cyber Security">Cyber Security</option>
+    <option value="Software Development">Software Development</option>
+</select><br><br>
+<button name="send">Register</button> <br>
+<a href="login.php"> Already registered? Click here to login</a>
+</form>
+</body>
+</html>
